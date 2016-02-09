@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaSample.Web", "Voltcode.AkkaSample.Web\Voltcode.AkkaSample.Web.csproj", "{2AA7D89B-EE82-48D1-A5F5-D92BDE9FADA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voltcode.AkkaSample.Service", "Voltcode.AkkaSample.Service\Voltcode.AkkaSample.Service.csproj", "{BF2D72E2-1112-4122-B885-3ABB710C6D11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AA7D89B-EE82-48D1-A5F5-D92BDE9FADA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA7D89B-EE82-48D1-A5F5-D92BDE9FADA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA7D89B-EE82-48D1-A5F5-D92BDE9FADA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA7D89B-EE82-48D1-A5F5-D92BDE9FADA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2D72E2-1112-4122-B885-3ABB710C6D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2D72E2-1112-4122-B885-3ABB710C6D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2D72E2-1112-4122-B885-3ABB710C6D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2D72E2-1112-4122-B885-3ABB710C6D11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
