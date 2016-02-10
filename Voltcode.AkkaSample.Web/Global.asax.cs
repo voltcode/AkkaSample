@@ -7,11 +7,15 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
+using Voltcode.AkkaSample.Web.Actors;
+
 namespace Voltcode.AkkaSample.Web
 {
     public class MvcApplication : System.Web.HttpApplication
     {
         private static ActorSystem actorSystem;
+
+        private static IActorRef appActor;
 
         protected void Application_Start()
         {
@@ -21,6 +25,8 @@ namespace Voltcode.AkkaSample.Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             actorSystem = ActorSystem.Create("voltcode");
+
+            appActor = actorSystem.ActorOf<AppActor>("appActor");
         }
 
         protected void Application_End()
