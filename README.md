@@ -1,2 +1,2 @@
 # AkkaSample
-Minimal Akka.net Cluster sample using a windows service and a web app
+Minimal Akka.net Cluster sample for replicating Akka.net bug #1670 
